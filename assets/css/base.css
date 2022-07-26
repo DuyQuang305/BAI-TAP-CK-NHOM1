@@ -1,0 +1,37 @@
+* { 
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+}
+
+html {
+                box-sizing: border-box;
+        }
+
+body {
+        background-color: white;
+        color: #000;
+        font-family: 'Ibarra Real Nova', serif;
+}
+
+.wrapper {
+        margin: 0 auto;
+        max-width: 1440px;
+        overflow-x: hidden;
+}
+
+span, img, a {
+        display: block;
+}
+
+a {
+        text-decoration: none;
+        color: #000;
+}
+
+
+
+
+
+
+
