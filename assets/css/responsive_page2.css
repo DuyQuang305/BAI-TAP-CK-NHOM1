@@ -239,6 +239,8 @@
         .body__form-title{
                 font-size: 29px;
                 line-height: 29px;
+                margin-left: 65px;
+                margin-right: 65px;
         }
         .body__form-text{
               margin-top: 14px;
@@ -262,6 +264,7 @@
          }
 
          .body__form-btn{
+                
                 width: 108px;
                 height: 54px;
                 transform: translateX(-90px);

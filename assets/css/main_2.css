@@ -108,6 +108,7 @@ display: flex;
         box-shadow: 0px, 1px rgba(0, 0, 0, 0.08);
         overflow: hidden;
         position: relative;
+        
 }
 
 
@@ -120,7 +121,6 @@ display: flex;
         transform: translate(-50%, -50%);
         width: 20px;
         height: 19.92px;
-        
 }
 
 .body__detail-text{
@@ -341,9 +341,21 @@ display: flex;
        display: flex;
        flex-direction: column;
 }
+
+
 .body__articles-img{
         width: 100%;
+        overflow: hidden;
 }
+
+.body__articles-img img{
+        transition: 0.2s ease-in-out;
+}
+
+.body__articles-img:hover img{
+        transform: scale(1.2);
+}
+
 .body__articles-text{
         font-family: 'SF Pro Display';
         max-width: 262px;
@@ -377,7 +389,7 @@ display: flex;
 }
 .body__form-text{
         font-family: 'SF Pro Text';
-        margin-top: 18px;
+        margin: 18px 51px 0;
         font-size: 20px;
         font-weight: 400;
         line-height: 28px;
@@ -419,6 +431,7 @@ display: flex;
         width: 139px;
         height: 54px;
         transform: translateX(-33px);
+        text-transform: uppercase;
         border: none;
 }
 
